@@ -13,12 +13,12 @@ def log_odds_to_probability(log_odds):
     return probability
 
 
-data = pd.read_csv('corr_data_12_11.csv')
+data = pd.read_csv('logit_data_12_11.csv')
 
 # Select your predictor variables and the target variable
 # Replace these column names with the names of your variables
 predictor_vars = ['ROOF_PITCH_BUCKET',
-                  'MONTHS_SINCE_INSTALL',  # included to get a better view of foreman tenure
+                  'YEARS_SINCE_INSTALL',  # included to get a better view of foreman tenure
                   'LIQUID_PRECIP_BUCKET',
                   'ROOF_CONCRETE_S_TILE',
                   'RACK_RL',
@@ -45,7 +45,6 @@ model.fit(X_train, y_train)
 
 # Predictions
 predictions = model.predict(X_test)
-
 
 # Evaluation
 print("Confusion Matrix:")

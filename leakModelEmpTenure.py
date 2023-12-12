@@ -10,12 +10,12 @@ predictor_vars = [
     'ROOF_PITCH_BUCKET',
     'YEARS_SINCE_INSTALL',
     'LIQUID_PRECIP_BUCKET',
-    # 'ROOF_CONCRETE_S_TILE',
-    # 'RACK_RL',
-    # 'RACK_S',
-    # 'RACK_UR',
-    # 'RACK_TOPSPEED',
-    # 'FOREMAN_TENURE_YRS
+    'ROOF_CONCRETE_S_TILE',
+    'RACK_RL',
+    'RACK_S',
+    'RACK_UR',
+    'RACK_TOPSPEED',
+    'FOREMAN_TENURE_YRS',
     'AVG_EMP_TENURE_YRS'
 ]
 
