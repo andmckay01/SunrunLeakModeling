@@ -1,8 +1,6 @@
 import pandas as pd
 import statsmodels.api as sm
 
-# Load your data
-# Make sure this is the correct file path
 data = pd.read_csv('logit_data_12_11.csv')
 
 # Select predictor variables and the target variable

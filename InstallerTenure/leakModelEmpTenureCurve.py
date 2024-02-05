@@ -3,9 +3,6 @@ import statsmodels.api as sm
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Since I don't have the actual dataset, I'll create a mock dataset for demonstration purposes
-# This mock data will follow the same structure as described, but with random values
-
 data = pd.read_csv('logit_data_12_11.csv')
 
 # Select predictor variables and the target variable

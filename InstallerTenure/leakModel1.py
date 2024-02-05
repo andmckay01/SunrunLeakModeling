@@ -15,8 +15,6 @@ def log_odds_to_probability(log_odds):
 
 data = pd.read_csv('logit_data_12_11.csv')
 
-# Select your predictor variables and the target variable
-# Replace these column names with the names of your variables
 predictor_vars = ['ROOF_PITCH_BUCKET',
                   'YEARS_SINCE_INSTALL',  # included to get a better view of foreman tenure
                   'LIQUID_PRECIP_BUCKET',

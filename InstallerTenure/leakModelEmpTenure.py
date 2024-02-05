@@ -2,8 +2,6 @@ import pandas as pd
 import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
-# Load your data
-# Make sure this is the correct file path
 data = pd.read_csv('logit_data_12_12.csv')
 
 # Select predictor variables and the target variable
